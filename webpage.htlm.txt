@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ong's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #002147;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004080;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #003366;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #002147;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Ong's Personal Webpage</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Ong. I work as a Training and Development Specialist at Toshiba Elevator Manufacturing Asia Sdn. Bhd. I have a deep interest in safety and health topics, corporate training, personal development, and manufacturing processes. With a growth mindset, I am passionate about helping others develop their skills and knowledge in a manufacturing environment.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <p>Throughout my career, I have worked on various projects that emphasize safety, efficiency, and skill development in the manufacturing sector. Some of my key projects include:</p>
+        <ul>
+            <li>Project A: Description of Project A</li>
+            <li>Project B: Description of Project B</li>
+            <li>Project C: Description of Project C</li>
+        </ul>
+    </section>
+
+    <section id="blog" class="section">
+        <h2>Blog</h2>
+        <p>Welcome to my blog! Here, I share my insights and thoughts on safety, health, training, and development. Stay tuned for updates and feel free to engage in discussions.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch with me, you can reach me via email or connect with me on social media.</p>
+        <ul>
+            <li>Email: ong@example.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ong" target="_blank">linkedin.com/in/ong</a></li>
+            <li>Twitter: <a href="https://twitter.com/ong" target="_blank">@ong</a></li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Ong's Personal Webpage</p>
+</footer>
+
+</body>
+</html>
